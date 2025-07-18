@@ -26,5 +26,5 @@ const student = students.find((student)=>{
     return true
 })
 let classe = student.class
-console.log(classec)
+console.log(classe)
 
