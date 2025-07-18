@@ -21,10 +21,10 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
-const classe = students.find((student)=>{
+const student = students.find((student)=>{
   if(student.class === '3C')
     return true
 })
-let specific = classe.class
-console.log(specific)
+let classe = student.class
+console.log(classec)
 
